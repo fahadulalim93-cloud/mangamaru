@@ -330,6 +330,15 @@ export default function MangaDetailPage({ mangaId }: MangaDetailProps) {
             }
           }
 
+          // Override with AniList images (set by /manga/[id]/page.tsx)
+          try {
+            const alIdStr = sessionStorage.getItem(`manga-anilist-id-${mangaId}`) || "";
+            const alBanner = sessionStorage.getItem(`manga-anilist-banner-${mangaId}`) || "";
+            const alCover = sessionStorage.getItem(`manga-anilist-cover-${mangaId}`) || "";
+            if (alIdStr && !data.anilistId) data.anilistId = parseInt(alIdStr, 10) || undefined;
+            if (alCover) { data.poster = alCover; data.cover = alCover; }
+            if (alBanner) data.banner = alBanner;
+          } catch {}
           setManga(data);
 
           // Fetch AniList banner if we have an anilistId
