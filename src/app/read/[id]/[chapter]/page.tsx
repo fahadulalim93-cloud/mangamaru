@@ -1,7 +1,8 @@
-import { ReaderPage } from "@/components/reader/ReaderPage";
-export const revalidate = 1800;
-export default async function ReadPage({ params }: { params: Promise<{ id: string; chapter: string }> }) {
-  const { id, chapter } = await params;
-  const mangaId = parseInt(id, 10);
-  return <ReaderPage mangaId={mangaId} chapter={chapter} />;
+"use client";
+import { use } from "react";
+import MangaReader from "@/components/manga/manga-reader";
+
+export default function ReadPage({ params }: { params: Promise<{ id: string; chapter: string }> }) {
+  const { id, chapter } = use(params);
+  return <MangaReader mangaId={id} chapterId={chapter} />;
 }
