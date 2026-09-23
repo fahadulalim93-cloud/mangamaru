@@ -480,14 +480,23 @@ img { display: block; max-width: 100%; }
 
 /* ===== SPLIT-CARD HERO (Akari-style) ===== */
 .split-hero {
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
   display: grid;
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
   grid-template-columns: 260px 1fr;
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
   gap: 28px;
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
   padding: 28px 28px 36px;
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
   align-items: start;
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
   position: relative;
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
   border-bottom: 1px solid var(--border);
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
 }
+.split-hero-bg-tint { position: absolute; inset: 0; background: radial-gradient(circle at 20% 30%, var(--hero-color, transparent), transparent 50%), radial-gradient(circle at 80% 70%, var(--hero-color, transparent), transparent 50%); opacity: 0.08; mix-blend-mode: screen; pointer-events: none; z-index: 0; transition: opacity 0.7s; }
 .split-hero-cover-wrap {
   position: relative;
   display: block;
