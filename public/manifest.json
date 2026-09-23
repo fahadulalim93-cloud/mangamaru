@@ -1,0 +1,13 @@
+{
+  "name": "MangaMaru",
+  "short_name": "MangaMaru",
+  "description": "The cinematic way to discover and read manga. Powered by AniList.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#dc2626",
+  "icons": [
+    { "src": "/favicon.png", "sizes": "64x64", "type": "image/png" },
+    { "src": "/logo.png", "sizes": "1254x1254", "type": "image/png" }
+  ]
+}
