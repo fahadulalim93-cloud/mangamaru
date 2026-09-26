@@ -1,0 +1,6 @@
+[phases.build]
+cmds = ["npm run build"]
+cacheDirectories = []
+
+[phases.setup]
+nixPkgs = ["nodejs_22", "npm-9_x"]
